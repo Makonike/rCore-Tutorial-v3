@@ -1,4 +1,6 @@
 #![no_std]
-fn main() {
-    println!("Hello, world!");
-}
+#![no_main]
+mod lang_items;
+// fn main() {
+// println!("Hello, world!");
+// }
