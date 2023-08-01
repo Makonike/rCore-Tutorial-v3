@@ -21,7 +21,7 @@ global_asm!(include_str!("entry.asm"));
 pub fn rust_main() -> ! {
     clear_bss();
     logging::init();
-    println!("[RINIT] Hello, rCore!");
+    println!("[RCORE] Hello, rCore!");
     trace!("Hello, rCore!");
     debug!("Hello, rCore!");
     info!("Hello, rCore!");
